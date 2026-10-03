@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0b">
+  <meta name="description" content="Explore scripts in action. Watch the showcases and join the community.">
+  <title>Hookd Development — Scripts in action</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="site-wrap">
+    <header class="header">
+      <a href="#" class="brand" aria-label="Home"><span class="brand-symbol">h<span>↗</span></span><span data-brand>Hookd Development</span></a>
+      <nav aria-label="Main navigation"><a href="#showcases">Showcases</a><a href="#community">Community</a></nav>
+      <a class="button button-small discord-link" href="#community">Join Discord <span aria-hidden="true">↗</span></a>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT SCRIPTS. EXTRAORDINARY POSSIBILITIES.</p>
+          <h1 id="hero-title">Small scripts.<br>Big <span class="outline-text">energy.</span><span class="accent">*</span></h1>
+          <p class="hero-description">A collection of scripts built to do more.<br>See them in action. Find your next upgrade.</p>
+          <div class="hero-actions"><a href="#showcases" class="button">Explore showcases <span aria-hidden="true">↗</span></a><a href="#community" class="text-link">Meet the community <span aria-hidden="true">→</span></a></div>
+          <div class="hero-bottom"><span class="tiny-cross">✳</span><span>BUILT WITH INTENT.<br>SHOWN IN ACTION.</span><a href="#showcases" aria-label="Scroll to showcases" class="scroll-indicator">↓</a></div>
+        </div>
+        <button class="featured-stage" id="featured-play" aria-label="Watch featured showcase">
+          <span class="stage-top"><span class="pill">FEATURED SHOWCASE</span><span class="stage-index">01 / SELECTED WORK</span></span>
+          <span class="stage-grid"></span><img class="stage-art" src="assets/orbit.svg" alt="Sculptural silver orbital rings over a dark grid">
+          <span class="art-caption">CODE / MOTION / POSSIBILITIES</span>
+          <span class="play-circle" aria-hidden="true">▶</span>
+          <span class="stage-bottom"><span><span class="stage-kicker">THE SPOTLIGHT</span><strong id="featured-title">Movement Engine</strong></span><span class="stage-watch">Watch showcase <span>↗</span></span></span>
+        </button>
+      </section>
+      <div class="ticker" aria-hidden="true"><div><span>LESS FRICTION</span><b>✳</b><span>MORE POSSIBILITIES</span><b>✳</b><span>CODE THAT MOVES</span><b>✳</b><span>LESS FRICTION</span><b>✳</b><span>MORE POSSIBILITIES</span><b>✳</b><span>CODE THAT MOVES</span><b>✳</b></div></div>
+      <section class="showcases section" id="showcases" aria-labelledby="showcases-title">
+        <div class="section-heading"><div><p class="eyebrow muted">01 / THE COLLECTION</p><h2 id="showcases-title">See what’s <span class="serif">possible.</span></h2></div><p>Less explaining. More showing.<br>Take a closer look at the scripts.</p></div>
+        <div class="gallery-toolbar"><div class="filters" role="group" aria-label="Filter showcases"><button class="filter active" data-filter="All" aria-pressed="true">All showcases <span id="all-count">03</span></button><button class="filter" data-filter="Gameplay" aria-pressed="false">Gameplay</button><button class="filter" data-filter="Utilities" aria-pressed="false">Utilities</button><button class="filter" data-filter="Interface" aria-pressed="false">Interface</button></div><span class="gallery-note">PRESS PLAY. GET INSPIRED. ↙</span></div>
+        <div class="gallery" id="gallery"></div>
+        <noscript><p>Please enable JavaScript to load the video showcases.</p></noscript>
+      </section>
+      <section class="community section" id="community" aria-labelledby="community-title">
+        <div class="community-copy"><p class="eyebrow">02 / BETTER TOGETHER</p><h2 id="community-title">Good scripts.<br><span class="serif">Great company.</span></h2><p>Get a closer look behind the builds. Share ideas, catch new releases, and hang out with people who love making things work.</p><a class="button button-dark discord-link" href="#community"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19.7 5.3a18 18 0 0 0-4.4-1.4l-.5 1a16 16 0 0 0-5.6 0l-.5-1a18 18 0 0 0-4.4 1.4C1.5 9.4.8 13.4 1.2 17.4a18 18 0 0 0 5.4 2.7l1.1-1.8-1.7-.8.4-.3a13 13 0 0 0 11.2 0l.4.3-1.7.8 1.1 1.8a18 18 0 0 0 5.4-2.7c.5-4.6-.8-8.6-3.1-12.1ZM8.5 14.8c-1 0-1.8-1-1.8-2.2s.8-2.2 1.8-2.2 1.8 1 1.8 2.2-.8 2.2-1.8 2.2Zm7 0c-1 0-1.8-1-1.8-2.2s.8-2.2 1.8-2.2 1.8 1 1.8 2.2-.8 2.2-1.8 2.2Z"/></svg>Join the Discord <span aria-hidden="true">↗</span></a><span class="community-footnote">YOUR NEXT IDEA STARTS WITH A CONVERSATION.</span></div>
+        <div class="community-art" aria-hidden="true"><span class="orbit-line one"></span><span class="orbit-line two"></span><span class="orbit-line three"></span><div class="chat-card chat-one"><span class="avatar">✳</span><div><strong>new ideas</strong><span>Always welcome here.</span></div><span>↗</span></div><div class="chat-card chat-two"><span class="avatar">⌘</span><div><strong>the next release</strong><span>Be part of what’s next.</span></div><span>↗</span></div><span class="community-star">✳</span></div>
+      </section>
+    </main>
+    <footer><a class="brand" href="#"><span class="brand-symbol">h<span>↗</span></span><span data-brand>Hookd Development</span></a><p>Made to make things happen.</p><span>© <span id="year"></span> <span data-brand>Hookd Development</span></span><a href="#" class="back-top">BACK TO TOP ↑</a></footer>
+  </div>
+  <dialog id="video-dialog" aria-labelledby="dialog-title"><div class="dialog-header"><div><p class="eyebrow muted" id="dialog-category">SHOWCASE</p><h2 id="dialog-title"></h2></div><button class="close-button" aria-label="Close video">✕</button></div><div id="video-content"></div><p id="dialog-description"></p></dialog>
+</body>
+</html>
