@@ -2,7 +2,7 @@
 window.SITE_CONFIG = {
   brand: "Hookd Development",
   // Paste your real Discord invite, e.g. https://discord.gg/your-invite
-  discordInvite: "",
+  discordInvite: "https://discord.gg/NRxrXGhqZM",
   // Set this to the id of the card you want in the large featured panel.
   featuredId: "movement",
   scripts: [
